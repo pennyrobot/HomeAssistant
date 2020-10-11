@@ -1,0 +1,45 @@
+title: Wyze Motion Sensors
+type: entities
+entities:
+  - entity: binary_sensor.wyzesense_motionsensor_garage
+    type: 'custom:multiple-entity-row'
+    name: Wyze Motion Sensor - Garage
+    show_state: false
+    entities:
+      - attribute: battery_level
+        name: Battery
+        unit: '%'
+      - attribute: rssi
+        name: Network
+        
+  - entity: binary_sensor.wyzesense_motionsensor_hallway
+    type: 'custom:multiple-entity-row'
+    name: Wyze Motion Sensor - Hallway
+    show_state: false
+    entities:
+      - attribute: battery_level
+        name: Battery
+        unit: '%'
+      - attribute: rssi
+        name: Network
+        
+  - entity: binary_sensor.wyzesense_doorsensor_hallway
+    type: 'custom:multiple-entity-row'
+    name: Wyze Door Sensor - Hallway
+    show_state: false
+    entities:
+      - attribute: battery_level
+        name: Battery
+        unit: '%'
+      - attribute: rssi
+        name: Network
+  - entity: binary_sensor.wyzesense_doorsensor_garage
+    type: 'custom:multiple-entity-row'
+    name: Wyze Door Sensor - Garage Door
+    show_state: false
+    entities:
+      - attribute: battery_level
+        name: Battery
+        unit: '%'
+      - attribute: rssi
+        name: Network
