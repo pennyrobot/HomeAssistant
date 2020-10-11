@@ -20,7 +20,7 @@ You may get errors from UI as it cannot handle all object attributes, just make 
   # replace binary_sensor.wyzesense_motion_garage with your entity device name
     type: 'custom:multiple-entity-row'
     name: Wyze Motion Sensor - Garage
-  # replace name with somehting that works for you
+  # replace name with something that works for you
     show_state: false
   # hides the entity status, not needed for me
     entities:
